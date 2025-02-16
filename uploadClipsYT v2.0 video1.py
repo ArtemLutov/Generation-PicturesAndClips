@@ -26,7 +26,7 @@ all_mp4 = '.mp4'
 all_video_clips = [os.path.join(res_video_clips, f) for f in os.listdir(res_video_clips) if f.endswith(all_mp4)]
 index_video_clips = 0
 playlist_id = "PLe2IRTUrJhyeXWcb1KSQtfdkis3rXOy06"
-client_secrets_file = "resources/client_secret_787142624937-mvsjb80s2632f3ob7pog6lk94sbtbs9n.apps.googleusercontent.com.json"
+client_secrets_file = "resources/client_secret_.json"
 scopes = ["https://www.googleapis.com/auth/youtube"]
 # Путь к файлу с сохраненными учетными данными.
 creds_file = "resources/tokenYT.pickle"
